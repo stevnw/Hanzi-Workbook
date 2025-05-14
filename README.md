@@ -20,3 +20,9 @@ Obviously for legal reasons, you have to source an ebook version yourself. Once 
 - "ctrl + z" = undo
 - "left arrow" = previous page
 - "right arrow" = next page
+
+
+___
+
+#### Notes:
+I am sure you could modify this to work for other textbooks - just note that it does not save annotations...
