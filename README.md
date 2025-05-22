@@ -3,6 +3,8 @@ Java Swing GUI to annotate a Hanzi Workbook (Specifically: McNaughton, W. and Fa
 
 Obviously for legal reasons, you have to source an ebook version yourself. Once you do, use the python script and then delete the bad pages (Good ones should be page_26.png -> page_298.png)
 
+<b>To do:</b> I am going to compile a collection of worksheets myself - in which I can distribute with this - courtesy of: https://www.chinesecalligrapher.com/
+
 <pre> pip install pdf2image </pre>
 
 <pre> javac HanziWorkbook.java </pre>
