@@ -1,11 +1,17 @@
 # Hanzi-Workbook
-Java Swing GUI to annotate a Hanzi Workbook (Specifically: McNaughton, W. and Fan, J. (2013) Reading and Writing Chinese: Third Edition, HSK All Levels (2,349 Chinese Characters and 5,000+ Compounds). 3rd ed. [Tuttle Publishing]. ISBN 9780804842990.)
+Java Swing GUI to annotate a Hanzi character worksheets - made possible by https://www.chinesecalligrapher.com/
 
-Obviously for legal reasons, you have to source an ebook version yourself. Once you do, use the python script and then delete the bad pages (Good ones should be page_26.png -> page_298.png)
+### To do: 
+- [x] HSK band 1 characters (Pages 1 -> 30)
+- [ ] HSK band 2 characters
+- [ ] HSK band 3 characters
+- [ ] HSK band 4 characters
+- [ ] HSK band 5 characters
+- [ ] HSK band 6 characters
+- [ ] HSK bands 7 -> 9 characters
+- [ ] Add some way to easily jump to different HSK levels...
+- [ ] Bug fixes
 
-<b>To do:</b> I am going to compile a collection of worksheets myself - in which I can distribute with this - courtesy of: https://www.chinesecalligrapher.com/
-
-<pre> pip install pdf2image </pre>
 
 <pre> javac HanziWorkbook.java </pre>
 
@@ -13,7 +19,6 @@ Obviously for legal reasons, you have to source an ebook version yourself. Once 
 
 
 ![amogus](https://github.com/user-attachments/assets/11d716ac-d72d-4449-8534-6fc0f9ef8f7f)
-
 
 
 ### Keys/Bindings:
