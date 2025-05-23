@@ -14,7 +14,7 @@ public class HanziWorkbook extends JFrame {
     private JButton prevButton, nextButton, zoomInButton, zoomOutButton, undoButton, clearButton;
     private BufferedImage image;
     private double scale = 1.0;
-    private int currentPage = 26;
+    private int currentPage = 1;
     private HashMap<Integer, ArrayList<Line>> pageDrawings = new HashMap<>();
     private ArrayList<Line> currentDrawings = new ArrayList<>();
     private Color drawingColor = Color.BLACK;
@@ -133,8 +133,8 @@ public class HanziWorkbook extends JFrame {
     }
 
     private void loadPage(int pageNum) {
-        if (pageNum < 26 || pageNum > 298) {
-            JOptionPane.showMessageDialog(this, "Not a valid page lol");
+        if (pageNum < 1 || pageNum > 1000) { // Change to whatever the highest is once I finish making the pages - the way this works is a bit stupid tbh
+            JOptionPane.showMessageDialog(this, "No page found...");
             return;
         }
 
@@ -154,7 +154,7 @@ public class HanziWorkbook extends JFrame {
                 drawingPanel.revalidate();
                 drawingPanel.repaint();
             } else {
-                JOptionPane.showMessageDialog(this, "That page can't be found (lol)");
+                JOptionPane.showMessageDialog(this, "No page found...");
             }
         } catch (Exception ex) {
             ex.printStackTrace();
