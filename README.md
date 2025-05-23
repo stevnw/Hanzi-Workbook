@@ -1,5 +1,5 @@
 # Hanzi-Workbook
-Java Swing GUI to annotate a Hanzi character worksheets - made possible by https://www.chinesecalligrapher.com/
+Java Swing GUI to annotate Hanzi character worksheets - made possible by https://www.chinesecalligrapher.com/
 
 ### To do: 
 - [x] HSK band 1 characters (Pages 1 -> 30)
