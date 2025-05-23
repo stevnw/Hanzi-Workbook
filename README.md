@@ -10,7 +10,7 @@ Java Swing GUI to annotate a Hanzi character worksheets - made possible by https
 - [ ] HSK band 6 characters
 - [ ] HSK bands 7 -> 9 characters
 - [ ] Add some way to easily jump to different HSK levels...
-- [ ] Bug fixes
+- [ ] Bug fixes + improve thinks I don't like
 
 
 <pre> javac HanziWorkbook.java </pre>
@@ -18,7 +18,7 @@ Java Swing GUI to annotate a Hanzi character worksheets - made possible by https
 <pre> java HanziWorkbook </pre>
 
 
-![amogus](https://github.com/user-attachments/assets/11d716ac-d72d-4449-8534-6fc0f9ef8f7f)
+![image](https://github.com/user-attachments/assets/78f569e1-d42b-47f2-b9a1-c75a1f9ea95c)
 
 
 ### Keys/Bindings:
