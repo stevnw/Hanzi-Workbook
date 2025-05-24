@@ -3,14 +3,14 @@ Java Swing GUI to annotate Hanzi character worksheets - made possible by https:/
 
 ### To do: 
 - [x] HSK band 1 characters (Pages 1 -> 30)
-- [ ] HSK band 2 characters
+- [x] HSK band 2 characters (Pages 31 -> 60)
 - [ ] HSK band 3 characters
 - [ ] HSK band 4 characters
 - [ ] HSK band 5 characters
 - [ ] HSK band 6 characters
 - [ ] HSK bands 7 -> 9 characters
 - [ ] Add some way to easily jump to different HSK levels...
-- [ ] Bug fixes + improve thinks I don't like
+- [ ] Bug fixes + improve things I don't like
 
 
 <pre> javac HanziWorkbook.java </pre>
